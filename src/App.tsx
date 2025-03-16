@@ -1,3 +1,13 @@
+import {styled} from '../styled-system/jsx'
+
 export function App() {
-  return <>hello</>
+  return (
+    <styled.div
+      css={{
+        color: 'green.600',
+      }}
+    >
+      hello
+    </styled.div>
+  )
 }
